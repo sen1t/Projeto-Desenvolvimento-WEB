@@ -1,0 +1,193 @@
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height:100%;
+    background-color: #A9A9A9;
+}
+
+.cabecalho header{
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(23, 23, 199);
+}
+
+.principal{
+    display: grid;
+    margin-right: auto;
+    margin-left: auto ;
+    background-color:white;
+    width: 95%;
+    grid-template-columns: 100%;
+}
+
+.compromissos{
+    position: relative;
+    padding-top: 20px;
+    margin: auto;
+    margin: auto;
+    width: 100%;
+    height: 430px;
+}
+
+.compromissos input[type='submit']{
+        position: relative;
+        border: none;
+        width: 150px;
+        height: 40px;
+        background-color:#63be66;
+
+        font-weight: bolder;
+        color: white;
+
+}
+
+.compromissos input[type='submit']:hover{
+        cursor: pointer;
+        position: relative;
+        border: none;
+        width: 150px;
+        height: 40px;
+        background-color:#2e7431;
+
+        font-weight: bolder;
+        color: white;
+
+}
+
+
+
+.compromissos button{
+        position: relative;
+        border: none;
+        width: 150px;
+        height: 40px;
+        background-color:#63be66;
+}
+
+.compromissos button:hover{
+        position: relative;
+        border: none;
+        width: 150px;
+        height: 40px;
+        background-color:#204d21;
+}
+
+.compromissos button a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: white;
+
+}
+
+.compromissos p{
+    text-align: left;
+    padding-left: 300px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(23, 23, 199);
+}
+
+table{
+    position: relative;
+    top: 5px;
+    border: #63be66;
+    margin: auto;
+    margin: auto;
+    width: 80%;
+}
+th{
+    font-size: 15px;
+}
+ td{
+    font-size: 13px;
+}
+
+th {
+    background-color: #63be66;
+    color: white;
+  }
+
+th, td {
+    border: none;
+    padding: 5px;
+    text-align: center;
+      
+}
+
+td:hover {
+    background-color:rgb(29, 236, 81);
+}
+/*Aqui se inicia a estilização da section pesquisa*/
+    .pesquisa form{
+        position: relative;
+        bottom: 40px;
+        right: 120px;
+
+        text-align: right;
+        font-weight: bolder;
+    }
+
+    .pesquisa input{
+        width: 200px;
+        padding-left: 60px;
+        font-weight: bolder;
+
+        border: 2px solid #63be66 ;
+    }
+
+    .pesquisa input{
+        width: 200px;
+        padding-left: 60px;
+        font-weight: bolder;
+
+        border: 2px solid #63be66 ;
+     }
+
+    .pesquisa button{
+         width: 120px;
+         background-color: #42b72a;
+         border: none;
+         font-size: 15px;
+         text-transform: uppercase;
+         font-weight: bolder;
+         color: seashell;
+    }
+
+     .pesquisa button:hover{
+         width: 120px;
+         background-color: #2a7c1a;
+         border: none;
+         font-size: 15px;
+         text-transform: uppercase;
+         font-weight: bolder;
+         color: seashell;
+    }
+/*Aqui se encerra*/
+
+
+
+/*Abaixo inicia a estilização do rodapé*/
+.footer footer{
+    position: relative;
+    bottom: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+    text-align: center;
+}
+/*Aqui se encerra a estilização do rodapé*/
+
+
+
+

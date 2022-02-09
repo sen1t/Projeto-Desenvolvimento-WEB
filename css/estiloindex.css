@@ -1,0 +1,138 @@
+html {
+     
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height:100%;
+    background-color: #A9A9A9;
+}
+/* Abaixo cria-se uma grid para que sejam ajustados os itens*/
+.principal{
+    display: grid;
+    margin-right: auto;
+    margin-left: auto ;
+    background-color:white;
+    width: 980px;
+    grid-template-columns: 500px 500px;
+}
+/* Define o cabecalho do sistema*/
+.cabecalho{
+    margin-right: auto;
+    margin-left: auto ;
+    width: 980px;
+    height: 200px;
+}
+
+/*Cria-se uma linha para que separe o cabecalho da grid*/
+
+.linha_horizontal{
+    margin-right: auto;
+    margin-left: auto;
+    width: 980px;
+    border: 3px solid #A9A9A9;
+}
+
+/* Abaixo será feito a estilização dos formularios tanto login quanto cadastro*/
+
+.form_cadastro{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.form_cadastro header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    text-transform: uppercase; 
+    color: rgb(23, 23, 199);
+}
+
+
+.form_cadastro input[type='submit']{
+    width: 377px;
+    background-color: #42b72a;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: seashell;
+}
+
+.form_cadastro input[type='submit']:hover{
+    cursor: pointer;
+    background-color: #327c24;
+    border-color: #327c24;
+}
+
+
+
+label{
+    padding-left: 20px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase; 
+}
+
+input{
+    padding-left: 20px;
+    width: 350px;
+    height: 35px;
+    
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+
+.form_login{
+    padding-left: 60px;
+    padding-right: 10px;
+    border-left: 7px solid #A9A9A9 ;
+}
+
+.form_login header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    text-transform: uppercase; 
+    color: rgb(23, 23, 199);
+}
+
+.form_login nav a{
+    padding-left: 20px;
+    font-weight: bolder;
+    color:#1877f2 ;
+    text-decoration: none;
+}
+
+.form_login nav a:hover{
+    color:#1753a1;
+    text-decoration: none;
+}
+
+.form_login input[type='submit']{
+    width: 377px;
+    background-color: #1877f2;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: seashell;
+}
+
+.form_login input[type='submit']:hover{
+    cursor: pointer;
+    background-color: #365899;
+    border-color: #365899;
+}
+
+
+
+.footer footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
+}

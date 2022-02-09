@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/estiloindex.css" />
+    <title>Página Principal</title>
+</head>
+<body col-100>
+    <section class="cabecalho">
+        <header>
+            <img src="./imagens/logo.png" alt="agendafacil">
+        </header>
+    </section>
+
+    <section class="linha_horizontal">
+
+    </section>
+
+    <section class="principal">
+         
+         <section class="form_cadastro">
+                     <header>
+                         Ainda Não ultiliza nosso sistema? Cadastre-se no formulario abaixo!       
+                     </header>
+                 <form action="php/cadastrarUsuario.php" name="formcadastro" method="POST">
+                    <p>
+                         <input type="text" name="nome" id="nomeid" placeholder="Nome e Sobrenome" maxlength="40" required>
+                    </p>
+
+                     <p>
+                        <label for="data_nascimento"> Data De Nascimento:</label>
+                         <input type="date" name="data_nascimento" id="dataid"  required>
+                     </p>
+
+                    <p>
+                         <input type="email" name="email" id="emailid" placeholder="Email" required>
+                     </p>
+
+                    <p>
+                         <input type="password" name="senha" id="senhaid" placeholder="Nova Senha" maxlength="8" required>
+                     </p>
+
+                    <p>
+                         <input type="submit" value="Cadastrar-se">
+                     </p>
+                 </form>
+             </section> 
+
+             <section class="form_login">
+                     <header>
+                         Já ultiliza nosso sistema? Faça o login abaixo!
+                     </header>
+                 <form action="./php/login.php" name="form_login" method="post">
+                    <p>
+                         <input type="email" name="email" id="emailid" placeholder="Informe Seu Email" required>
+                     </p>
+
+                    <p>
+                         <input type="password" name="senha" id="senhaid" placeholder="Informe Sua Senha" maxlength="8" required>
+                     </p>  
+                    <p>
+                    <nav>
+                         <a href="./php/esquecir_senha.php">Esqueceu a senha? Clique aqui</a> 
+                     </nav>
+                    </p>
+                    <p>
+                         <input type="submit" value="Logar-se">
+                     </p>
+
+                 </form>
+             </section>
+
+    </section>
+
+    <section class="footer">
+        <footer>| Sistema Desenvolvido Por Gabriel Siqueira | Aluno do 2º Pedíodo ADS ESTÁCIO SE |</footer> 
+    </section>
+</body>
+</html>
